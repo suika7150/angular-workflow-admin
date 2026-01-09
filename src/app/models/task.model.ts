@@ -1,4 +1,5 @@
-//規格
+//資料規格
+
 export interface Task {
   id: number;
   title: string;
