@@ -4,8 +4,6 @@ import { Task } from '../../models/task.model';
 import { TaskService } from '../../services/task.service';
 
 /**
- * TaskListComponent
- * ----------------------------------------
  * 任務列表畫面元件
  *
  * 負責：
