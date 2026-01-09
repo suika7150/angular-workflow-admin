@@ -12,12 +12,6 @@
   </thead>
 
   <tbody>
-    <!-- 使用 *ngFor 產生任務列表 -->
-    <tr *ngFor="let task of tasks">
-      <td>{{ task.title }}</td>
-      <td>{{ task.assignee }}</td>
-      <td>{{ task.status }}</td>
-      <td>{{ task.dueDate }}</td>
-    </tr>
+    <tr *ngFor="let task of tasks" app-task-item [task]="task"></tr>
   </tbody>
 </table>

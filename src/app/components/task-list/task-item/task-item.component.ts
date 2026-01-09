@@ -13,10 +13,11 @@ import { CommonModule } from '@angular/common';
 import { Task } from '../../../models/task.model';
 
 @Component({
-  selector: 'app-task-item',
+  selector: 'tr[app-task-item]',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './task-item.component.html',
+  styleUrls: ['./task-item.component.css'],
 })
 
 /**

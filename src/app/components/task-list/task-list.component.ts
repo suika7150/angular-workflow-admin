@@ -2,27 +2,26 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Task } from '../../models/task.model';
 import { TaskService } from '../../services/task.service';
+import { TaskItemComponent } from './task-item/task-item.component';
 
 /**
  * 任務列表畫面元件
  *
  * 負責：
- * - 向 TaskService 取得任務資料
- * - 將任務列表顯示在畫面上
+ * - 取得任務資料
+ * - 將每筆任務交給 TaskItemComponent 顯示
  *
- * 不負責：
- * - 任務資料來源
- * - 商業邏輯（交由 Service 處理）
  */
 
 @Component({
   selector: 'app-task-list',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TaskItemComponent],
   templateUrl: './task-list.component.html',
+  styleUrls: ['./task-list.component.css'],
 })
 
-//提供畫面使用的任務列表
+//任務列表
 export class TaskListComponent implements OnInit {
   tasks: Task[] = [];
 

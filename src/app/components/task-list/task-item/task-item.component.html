@@ -1,0 +1,6 @@
+<td>{{ task.title }}</td>
+<td>{{ task.assignee }}</td>
+<td>
+  <span class="status" [ngClass]="task.status.replace(' ', '-')">{{ task.status }}</span>
+</td>
+<td>{{ task.dueDate }}</td>

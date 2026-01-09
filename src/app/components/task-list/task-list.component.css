@@ -1,0 +1,22 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  font-family: Arial, sans-serif;
+}
+
+thead {
+  background-color: #1976d2; /* 深藍色表頭 */
+  color: white;
+}
+
+th,
+td {
+  padding: 12px 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* 隔行換色 */
+}
