@@ -11,12 +11,25 @@ h2 {
   margin-bottom: 24px;
 }
 
+.stats > .total {
+  background-color: #2196f3; /* 藍色 */
+  color: white;
+}
+
+.stats > .done {
+  background-color: #4caf50; /* 綠色 */
+  color: white;
+}
+
+.stats > .pending {
+  background-color: #f44336; /* 紅色 */
+  color: white;
+}
+
 .stats > div {
   flex: 1;
   padding: 16px;
   border-radius: 8px;
-  background-color: #f5f7fa;
-  border: 1px solid #e0e0e0;
   text-align: center;
   font-size: 14px;
 }
