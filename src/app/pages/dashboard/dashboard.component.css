@@ -1,0 +1,28 @@
+h2 {
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* 統計卡片區 */
+.stats {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.stats > div {
+  flex: 1;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #f5f7fa;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* 數字強調 */
+.stats > div::first-line {
+  font-size: 20px;
+  font-weight: bold;
+}

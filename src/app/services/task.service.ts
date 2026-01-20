@@ -14,6 +14,7 @@ export class TaskService {
       assignee: 'Alex',
       status: 'Done',
       dueDate: '2026-01-05',
+      completed: true,
     },
     {
       id: 2,
@@ -21,6 +22,7 @@ export class TaskService {
       assignee: 'Lucas',
       status: 'In Progress',
       dueDate: '2026-03-31',
+      completed: false,
     },
   ];
 
