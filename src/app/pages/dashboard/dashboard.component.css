@@ -1,7 +1,10 @@
-h2 {
-  margin-bottom: 16px;
+h1 {
   font-size: 24px;
   font-weight: 600;
+  color: #333;
+  text-align: left;
+  margin-bottom: 16px;
+  text-align: center;
 }
 
 /* 統計卡片區 */
@@ -12,17 +15,17 @@ h2 {
 }
 
 .stats > .total {
-  background-color: #2196f3; /* 藍色 */
+  background-color: #2196f3;
   color: white;
 }
 
 .stats > .done {
-  background-color: #4caf50; /* 綠色 */
+  background-color: #4caf50;
   color: white;
 }
 
 .stats > .pending {
-  background-color: #f44336; /* 紅色 */
+  background-color: #f44336;
   color: white;
 }
 
@@ -34,7 +37,6 @@ h2 {
   font-size: 14px;
 }
 
-/* 數字強調 */
 .stats > div::first-line {
   font-size: 20px;
   font-weight: bold;
